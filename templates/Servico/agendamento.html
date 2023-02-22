@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}Pagina Inicial{% endblock %}
+
+{% block content %}      
+<div class="row">
+    <h1>Agendamento</h1>
+    <form action="">
+        <p>Informações do cliente</p>
+        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+        
+        <p>Serviços disponiveis</p>
+    </form>
+    <div class="main">
+        <form action="agendamento/">
+            <label for="agendamento">Faça seu agendamento</label><br>
+            <input type="submit" value="Clique aqui" class="btn btn-outline-success">
+        </form>           
+    </div>           
+</div>
+{% endblock %}

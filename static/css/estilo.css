@@ -1,0 +1,14 @@
+/*navegacao*/
+.navegacao, .rodape{
+    background-color: #B0C4DE;
+}
+/*link*/
+a:link{
+    color: white;
+}
+
+
+/*meio*/
+.row{
+    text-align: center;
+}
